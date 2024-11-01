@@ -24,8 +24,9 @@ Webnwell theme designed for all business type. Organizations and businesses have
 <li> In your admin panel, go to Appearance > Themes and click the Add New button.</li>
 <li> Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.</li>
 <li> Click Activate to use your new theme right away.</li>
+</ul>
 
-== Frequently Asked Questions ==<br><br>
+== Frequently Asked Questions ==<br>
 
 = Does this theme support any plugins? =<br>
 
