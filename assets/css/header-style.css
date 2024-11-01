@@ -1,0 +1,207 @@
+/* ================================= */
+/* Header */
+/* ================================= */
+
+
+.site-header {
+  background-color: #FFFDFC;
+}
+
+.site-header-container {
+  width: 1600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.mar-2 {
+  margin-right: 50px;
+}
+
+.nav-item {
+  margin: 0 10px;
+  position: relative;
+}
+
+ul li:hover > ul, ul li:focus > ul{
+  display: block
+}
+
+.navbar-nav .active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: inherit;
+  height: 4px;
+  width: 100%;
+  background-color: #CC1E2F;
+}
+
+.nav-item:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: #CC1E2F;
+  height: 4px;
+  width: 100%;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+.nav-item:first-child {
+  margin-left: 0;
+}
+
+.navbar-nav .nav-link {
+	padding: 48px 10px;
+}
+
+.nav-link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #CC1E2F;
+}
+
+
+.header-button {
+  border-left: 1px solid #CC1E2F;
+  margin-left: 25px;
+}
+
+
+.head-btn {
+  background-color: #CC1E2F;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #FFFDFC;
+  margin-left: 30px;
+}
+
+.head-btn:hover {
+  background-color: #D1D1D9;
+  color: #000000;
+}
+
+ /* dropdown */
+
+
+ .dropdown-menu {
+  background-color: #FFFDFC;
+  border-radius: 0;
+  border: none;
+}
+
+.dropdown-menu .nav-item {
+  margin: 0;
+  width: 100%;
+}
+
+.dropdown-menu .nav-item a:hover {
+  background-color: inherit;
+}
+
+.dropdown-menu .nav-item a {
+  color: inherit;
+}
+
+.dropdown-menu .nav-item:hover::before {
+  display: none;
+}
+.dropdown-menu .dropdown-menu {
+  left: 100%;
+  top: 0px;
+}
+
+/* before and after */
+.navbar .nav > li > .dropdown-menu::before, .navbar .nav > li > .dropdown-menu::after {
+  display: none;
+}
+
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 1px dotted ButtonText;
+	box-shadow: none;
+}
+
+@media (max-width: 575.98px) { 
+
+  .button-header {
+    display: none !important;
+  }
+
+ 
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
+  
+
+ }
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .navbar-nav {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e3e3e3;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e3e3e3;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+    padding: 5px 20px;
+    border-bottom: 1px solid #B4956A;
+  }
+
+  .navbar-nav .nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .navbar-nav .active::before {
+    display: none;
+  }
+
+  .nav-item:hover::before {
+    display: none;
+  }
+
+  .button-header {
+    display: none !important;
+  }
+  
+ }
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  
+ }
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+  
+}
